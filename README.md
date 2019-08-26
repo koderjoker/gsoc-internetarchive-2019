@@ -104,9 +104,9 @@ Summarised points and references can be found <a href="https://github.com/intern
 
 Working and enhancing the topnav was something I was interested in from the start, due to the huge potential in improving it and resolving its multiple existing accessibility and navigational traps.
 
-After a call with Isa we agreed that I was to build the new mobile topnav using LitElement, and we consulted Jason who had prior experience in building the archive’s radio player with the same. Afterwards I had a meeting with Jim who introduced me to the workings of the prototype of the mobile topnav, and I broke my work down into smaller issues to tackle one by one. I set up my environment and studied css animations and LitElement in preperation. I also surveyed and research implementations on other websites and studied best accesaccessibility practices for developing website navigational features.
+After a call with Isa we agreed that I was to build the new mobile topnav using LitElement, and we consulted Jason who had prior experience in building the archive’s radio player with the same. Afterwards I had a meeting with Jim who introduced me to the workings of the prototype of the mobile topnav, and I broke my work down into smaller issues to tackle one by one. I set up my environment and studied css animations and LitElement in preparation. I also surveyed and researched implementations on other websites and studied best accessibility practices for developing website navigational features.
 
-After a couple of issues faced due to pre existing issues with the navbar I had a brief discussion with Isa, and it was decided to 
+After a couple of issues faced due to pre-existing issues with the navbar I had a brief discussion with Isa, and it was decided to 
 - Build the navbar from scratch with minimal code and discard the previous code. Later on built a new desktop nav, thus extending the mobile topnav’s utility
 - Rewrite the styles from scratch due to the large amount of unused css and the unexpected styles caused due to it
 - Removing Bootstrap as a dependency for new components in IAUX due to it’s unwanted effects on self written styles and pre-existing accessibility issues
