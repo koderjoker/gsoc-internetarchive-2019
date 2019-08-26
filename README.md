@@ -164,3 +164,14 @@ My Google Summer of Code experience has undoubtedly been an amazing experience a
 In the immediate future, I plan to iterate on my work on the mobile topnav and make revisions to it based on feedback to help it reach production, and later on extend its utility to desktop as well. I'm also interested in helping out with the book sponsorship program.
 
 I would also like to continue helping out newcomers and support any upcoming open source initiatives, as Hacktoberfest was my entry to the Internet Archive.
+
+
+### Note of Thanks
+My deepest thanks to
+- <a href="https://github.com/iisa">Isa</a> for her guidance as an amazing mentor throughout this Google Summer of Code; from our daily check-ins to one-on-one calls, from working together on the music player to helping me feel at home at the Archive
+- <a href="https://github.com/bfalling">Brenton</a> for being my gateway to becoming a contributor at IAUX, reviewing and advising me on my Google Summer of Code Proposal and being my mentor for this Google Summer of Code
+- <a href="https://github.com/mekarpeles">Mek</a> for introducing me to the Internet Archive, being a mentor at Open Library and advising and reviewing my Google Summer of Code application
+- <a href="https://github.com/pezvi">Jim</a> for the time he took out to advise me on building and enhancing our user interface and experience, carefully reviewing and giving me feedback on my work
+- The rest of the IAUX team for their code reviews, inputs and support. It has been a wonderful experience working with everyone!
+- Internet Archive, for giving me the opportunity to work with them this Google Summer of Code
+- Google, for giving this wonderful opportunity to learn and grow
