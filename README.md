@@ -5,7 +5,7 @@
 
 ­− Kanchan Joshi
 
-Mentors: Isa Herico-Velasco, Brenton Cheng
+**Mentors:** Isa Herico-Velasco, Brenton Cheng
 
 <p align="center"><img src="https://user-images.githubusercontent.com/30471843/63679971-35411380-c810-11e9-954e-7a5c937ca7a8.png"></p>
 
