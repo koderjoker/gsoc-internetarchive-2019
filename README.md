@@ -92,7 +92,7 @@ The music player finally shipped to production on August 10 🎉
 
 <a href="https://www-isa.archive.org/details/cd_backstreet-boys_backstreet-boys/">NOTE: You can see the music player at work at archive.org!</a>
 
-Issues: <a href="https://github.com/internetarchive/iaux/issues/178">#178</a> (Card <a href="https://github.com/internetarchive/iaux/projects/1#card-23252537">1</a>, <a href="https://github.com/internetarchive/iaux/projects/1#card-23251846"2</a>, <a href="https://github.com/internetarchive/iaux/projects/1#card-23252216">3</a>, <a href="https://github.com/internetarchive/iaux/projects/1#card-23251976">4</a>),
+Issues: <a href="https://github.com/internetarchive/iaux/issues/178">#178</a> (Card <a href="https://github.com/internetarchive/iaux/projects/1#card-23252537">1</a>, <a href="https://github.com/internetarchive/iaux/projects/1#card-23251846">2</a>, <a href="https://github.com/internetarchive/iaux/projects/1#card-23252216">3</a>, <a href="https://github.com/internetarchive/iaux/projects/1#card-23251976">4</a>),
 <a href="https://github.com/internetarchive/iaux/issues/213">#213</a>,
 <a href="https://github.com/internetarchive/iaux/issues/222">#222</a>,
 <a href="https://github.com/internetarchive/iaux/issues/221">#221</a>,
@@ -106,7 +106,6 @@ Pull requests: <a href="https://github.com/internetarchive/iaux/pull/208">#208</
 <a href="https://github.com/internetarchive/iaux/pull/225">#225</a>,
 <a href="https://github.com/internetarchive/iaux/pull/232">#232</a>
 
-Cards: 
 
 ### Researching React testing libraries/utilities for component testing
 When the youtube player reached its first stable state, I started to write tests in Jest for the same. However, it soon became apparent that the currently used testing library (react-test-renderer) wasn’t optimal for our use, and thus I spent some time studying the pros and cons of using `react-test-renderer`, `enzyme` and `react-testing-library`. 
@@ -129,12 +128,20 @@ After a couple of issues faced due to pre-existing issues with the navbar, I had
 
 I soon had the navbar done and the pull requests are being reviewed and merged one by one!
 
-Master issue
+<a href="https://github.com/internetarchive/iaux/issues/247">Master issue</a>
 
-Sub issues:
+Sub issues: <a href="https://github.com/internetarchive/iaux/issues/248">#248</a>,
+<a href="https://github.com/internetarchive/iaux/issues/249">#249</a>,
+<a href="https://github.com/internetarchive/iaux/issues/250">#250</a>,
+<a href="https://github.com/internetarchive/iaux/issues/251">#251</a>,
+<a href="https://github.com/internetarchive/iaux/issues/252">#252</a>,
+<a href="https://github.com/internetarchive/iaux/issues/253">#253</a>,
+<a href="https://github.com/internetarchive/iaux/issues/254">#254</a>,
+<a href="https://github.com/internetarchive/iaux/issues/255">#255</a>
 
-Pull requests:
-
+Pull requests: <a href="https://github.com/internetarchive/iaux/pull/265">#265</a>,
+<a href="https://github.com/internetarchive/iaux/pull/278">#278</a>,
+<a href="https://github.com/internetarchive/iaux/pull/278">#277</a>
 
 Along with the above, I helped out with occasional code reviews and user experience testing of other pull requests. I synced with the rest of the IAUX team in our standup meetings, biweekly user experience meetings and occasionally in sprints.
 
