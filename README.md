@@ -83,6 +83,10 @@ Once a stable version of the component was created I discussed existing issues o
 
 We discussed the state of the music player at different points of time with Jim, and he created a document to list Music Player specs to meet before our player could move to production. Discussion for the music player occurred in multiple one-on-one calls, updates on the same were given in stand up calls and feedback was asked for in our user experience forum.
 
-The music player finally shipped to production on August 10 :celebrate:
+The music player finally shipped to production on August 10 🎉
 
 <a href="https://www-isa.archive.org/details/cd_backstreet-boys_backstreet-boys/">NOTE: You can see the music player at work at archive.org!</a>
+
+Issues
+
+Pull requests
