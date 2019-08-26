@@ -72,3 +72,17 @@ Master issue
 Sub issues
 
 
+### Building the Internet Archive's music player
+Building the youtube channel for our music player in React was the biggest task I undertook, and I spent most of my Google Summer of Code period on its development, enhancement, testing and bug fixing; getting it ready for its ship to production.
+
+My main task was to build the youtube wrapper component and integrate it in the bigger music player component. I met up with Isa to break down our task and decide what aspects to prioritise. Our first aim for the youtube wrapper was to integrate the YouTube iframe api and replace the default embedded, synchronise with our tracklist component, handle youtube player errors gracefully and to autoplay the video and shift track accordingly. I was also given full reign to make changes in multiple existing parent and child components of the music player to accommodate the same. 
+
+I picked out parts from the youtube iframe's api that would help in our endeavour and noted down legal/technical difficulties that the building youtube player would face and rediscussed them with Isa. I made notes and sketched out the flow of data, relevant components, files and variables to keep track of all necessary changes. I reduced lines of codes/complexity by writing the most elegant solution possible and replaced legacy lifecycle methods.
+
+Once a stable version of the component was created I discussed existing issues on error handling, state management, integration hiccups with main music component and possible refinements for the music player with Isa. Isa also gave me access to her BrowserStack account for testing purposes. Thus we went through numerous cycles of testing and bug fixing in order to make it meet user experience expectations. I made a tasklist to tick off in the main pull request to keep track.
+
+We discussed the state of the music player at different points of time with Jim, and he created a document to list Music Player specs to meet before our player could move to production. Discussion for the music player occurred in multiple one-on-one calls, updates on the same were given in stand up calls and feedback was asked for in our user experience forum.
+
+The music player finally shipped to production on August 10 :celebrate:
+
+<a href="https://www-isa.archive.org/details/cd_backstreet-boys_backstreet-boys/">NOTE: You can see the music player at work at archive.org!</a>
