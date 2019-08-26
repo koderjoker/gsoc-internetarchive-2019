@@ -3,7 +3,7 @@
 
 ## Improving site navigation for archive.org
 
-- Kanchan Joshi
+­− Kanchan Joshi
 
 Mentors: Isa Herico-Velasco, Brenton Cheng
 
