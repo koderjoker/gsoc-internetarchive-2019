@@ -58,7 +58,7 @@ Sub issues
 Relevant pull requests
 
 
-### Re designing the search result card system
+### Redesigning the search result card system
 The archive’s uneven search tile system has been one of its greatest obstacles to accessibility and navigation, and thus was one of my sub goals to tackle. 
 
 For the same I did an in depth study on the current situation of our tiles and listed all its issues that would be needed to be resolved. I studied Sketch and the use of its various plugins and followed up to coordinate with our UI and UX engineer Jim and built a strategy together to tackle the tile designs and improve my workflow in Sketch. 
@@ -90,3 +90,10 @@ The music player finally shipped to production on August 10 🎉
 Issues
 
 Pull requests
+
+
+### Researching React testing libraries/utilities for component testing
+When the youtube player reached its first stable state I started to write tests in Jest for the same. However, it soon became apparent that the currently used testing library (react-test-renderer) wasn’t optimal for our use, and thus I spent some time studying the pros and cons of using `react-test-renderer`, `enzyme` and `react-testing-library`. 
+
+This was a rather unique experience as there were no straightforward and clearcut comparisons online and the endeavour required me to deep dive into the documentation, explore the libraries’ chats and github comments and issues in repositories that chose to use any of the libraries and understanding and combining the views of developers on the same. In the end I determined that using react-testing-library would be the best.
+Summarised points and references can be found <a href="https://github.com/internetarchive/iaux/issues/226">here</a>. I plan to elaborate the same through an article in the near future.
