@@ -38,7 +38,7 @@ I have always been in love with books, ever since my childhood. However, it was 
 
 Come my later years in high school when I fell in love with coding and college where I fell in love with development and open source culture. I soon started to search for an open source project that interested me, and where I could volunteer.
 
-Thus I chose to begin my experience with volunteering at an open source organisation by contributing to Openlibrary, the world's largest non-profit, open source, digital public library, by merging a pull request for a linting issue as part of Hacktoberfest in October. I became a regular contributor January onwards, and started attending Openlibrary's community calls. I helped out by re designing and implementing our book list pages, book edition component, search pages and raising and resolving issues for navigation and accessibility. 
+Thus I chose to begin my experience with volunteering at an open source organisation by contributing to Openlibrary, the world's largest non-profit, open source, digital public library, by merging a pull request for a linting issue as part of Hacktoberfest in October. I became a regular contributor January onwards, and started attending Openlibrary's community calls. I helped out by redesigning and implementing our book list pages, book edition component, search pages and raising and resolving issues for navigation and accessibility. 
 
 Soon I branched out by helping in component development and documentation at IAUX, and applied for Google Summer of Code in the same.
 
@@ -47,9 +47,9 @@ Soon I branched out by helping in component development and documentation at IAU
 
 
 ### Flattening the directory structure and cleaning up the repo
-I kickstarted my Google Summer of Code journey by focusing on flattening our directory structure, ensuring that all examples ran in storybook, closing resolved issues and helping out by reviewing and merging in pull requests pending pre gsoc to pave way for our upcoming tasks. To implement the same I became familiar with storybook and studied our pre existing components and their working. 
+I kickstarted my Google Summer of Code journey by focusing on flattening our directory structure, ensuring that all examples ran in storybook, closing resolved issues and helping out by reviewing and merging in pull requests pending pre gsoc to pave way for our upcoming tasks. To implement the same, I became familiar with storybook and studied our pre existing components and their working. 
 
-Along with the above a new component for the tracklist a volunteer was successfully reviewed and merged in. I researched on the possibility of creating a separate component for our svgs as proposed by another volunteer, made an attempt for the same and discussed the pros and cons for the same in our user experience forum.
+Along with the above, a new component for the tracklist by a volunteer was successfully reviewed and merged in. I researched on the possibility of creating a separate component for our svgs as proposed by another volunteer, made an attempt for the same and discussed the pros and cons for the same in our user experience forum.
 
 Master issue
 
@@ -65,7 +65,7 @@ For the same I did an in depth study on the current situation of our tiles and l
 
 We decided to first work towards equalising all cards heights, then followed by replacing our information messages with badges and solving colour contrast issues in our colour palette. I presented the latest version of the prototypes in our biweekly user experience forum and kept adding on small tasks, reiterated on and redesigned the tiles multiple times based on continuous review and feedback for until the final prototypes were confirmed and approved.
 
-Final prototypes for height standarisation and re designing the information overlay can be found <a href="https://github.com/internetarchive/iaux/issues/195#issue-456375923">here</a> and <a href="https://github.com/internetarchive/iaux/issues/196#issuecomment-514803299">here</a>!
+Final prototypes for height standarisation and redesigning the information overlay can be found <a href="https://github.com/internetarchive/iaux/issues/195#issue-456375923">here</a> and <a href="https://github.com/internetarchive/iaux/issues/196#issuecomment-514803299">here</a>!
 
 Master issue
 
@@ -97,4 +97,21 @@ When the youtube player reached its first stable state I started to write tests 
 
 This was a rather unique study as there were no straightforward and clearcut comparisons online and the endeavour required me to deep dive into the documentation, explore the libraries’ chats and github comments and issues in repositories that chose to use any of the libraries and understanding and combining the views of developers on the same. In the end I determined that using react-testing-library would be the best for our purposes.
 
-Summarised points and references can be found <a href="https://github.com/internetarchive/iaux/issues/226">here</a>. I plan to elaborate the same through an article in the near future.
+Summarised points and references can be found <a href="https://github.com/internetarchive/iaux/issues/226">here</a>. I plan to elaborate on the same through an article in the near future.
+
+
+### Building the mobile topnav
+
+Working and enhancing the topnav was something I was interested in from the start, due to the huge potential in improving it and resolving its multiple existing accessibility and navigational traps.
+
+After a call with Isa we agreed that I was to build the new mobile topnav using LitElement, and we consulted Jason who had prior experience in building the archive’s radio player with the same. Afterwards I had a meeting with Jim who introduced me to the workings of the prototype of the mobile topnav, and I broke my work down into smaller issues to tackle one by one. I set up my environment and studied css animations and LitElement in preperation. I also surveyed and research implementations on other websites and studied best accesaccessibility practices for developing website navigational features.
+
+After a couple of issues faced due to pre existing issues with the navbar I had a brief discussion with Isa, and it was decided to 
+- Build the navbar from scratch with minimal code and discard the previous code. Later on built a new desktop nav, thus extending the mobile topnav’s utility
+- Rewrite the styles from scratch due to the large amount of unused css and the unexpected styles caused due to it
+- Removing Bootstrap as a dependency for new components in IAUX due to it’s unwanted effects on self written styles and pre-existing accessibility issues
+
+I soon had the navbar done and the pull requests are being reviewed and merged one by one!
+Master issue
+Sub issues:
+Pull requests:
