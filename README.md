@@ -14,3 +14,20 @@ The Internet Archive is a non-profit library committed to Universal Access to Kn
 Because of the Internet Archive, millions of patrons from all over the globe now have a chance to access media which their local libraries and archives have never held or made access to them before. However, having the right content is not good enough. It is imperative that users are able to easily navigate through this content to find and view what they are searching for, regardless of the device used or disabilities that they may have to contend with.
 
 Thus, my goal for this Google Summer of Code was to “Improve site navigation for archive.org” through researching, prototyping and developing relevant components and features at <a href="https://github.com/internetarchive/iaux">IAUX</a>, the Internet Archive’s monorepo for Archive.org UX development and prototyping.
+
+
+### Stack used
+Technologies that I worked with during my Google Summer of Code include
+- HTML
+- CSS
+- JavaScript
+- React
+- LitElement
+- Storybook
+- Sketch
+- Jest
+- React Test Renderer
+- Enzyme
+- React Testing Library
+- Git
+- Github
