@@ -3,6 +3,9 @@
 
 ## Improving site navigation for archive.org
 
+- Kanchan Joshi
+
+Mentors: Isa Herico-Velasco, Brenton Cheng
 
 <p align="center"><img src="https://user-images.githubusercontent.com/30471843/63679971-35411380-c810-11e9-954e-7a5c937ca7a8.png"></p>
 
@@ -51,11 +54,9 @@ I kickstarted my Google Summer of Code journey by focusing on flattening our dir
 
 Along with the above, a new component for the tracklist by a volunteer was successfully reviewed and merged in. I researched on the possibility of creating a separate component for our svgs as proposed by another volunteer, made an attempt for the same and discussed the pros and cons for the same in our user experience forum.
 
-Master issue
+<a href="https://github.com/internetarchive/iaux/issues/169">Master issue</a>
 
-Sub issues
-
-Relevant pull requests
+Relevant pull request: <a href="https://github.com/internetarchive/iaux/pull/177">#177</a>
 
 
 ### Redesigning the search result card system
@@ -67,17 +68,21 @@ I decided to first work towards equalising all cards heights, followed by replac
 
 Final prototypes for height standardisation and redesigning the information overlay can be found <a href="https://github.com/internetarchive/iaux/issues/195#issue-456375923">here</a> and <a href="https://github.com/internetarchive/iaux/issues/196#issuecomment-514803299">here</a>!
 
-Master issue
+<a href="https://github.com/internetarchive/iaux/issues/38">Master issue</a>
 
-Sub issues
-
+Sub issues: <a href="https://github.com/internetarchive/iaux/issues/164">#164</a>, 
+<a href="https://github.com/internetarchive/iaux/issues/165">#165</a>,
+<a href="https://github.com/internetarchive/iaux/issues/166">#166</a>,
+<a href="https://github.com/internetarchive/iaux/issues/166">#166</a>,
+<a href="https://github.com/internetarchive/iaux/issues/195">#195</a>,
+<a href="https://github.com/internetarchive/iaux/issues/196">#196</a>
 
 ### Building the Internet Archive's music player
 Building the youtube channel for our music player in React was the biggest task I undertook, and I spent most of my Google Summer of Code period on its development, enhancement, testing and bug fixing; getting it ready for its ship to production.
 
 My main task was to build the youtube wrapper component and integrate it in the bigger music player component. I met up with Isa to break down our task and decide what aspects to prioritise. Our first aim for the youtube wrapper was to integrate the YouTube iframe api and replace the default embedded, synchronise with our tracklist component, handle youtube player errors gracefully and to autoplay the video and shift track accordingly. I was also given full reign to make changes in multiple existing parent and child components of the music player to accommodate the same. 
 
-I picked out parts from the youtube iframe's api that would help in our endeavour and noted down legal/technical difficulties that the building youtube player would face and rediscussed them with Isa. I made notes and sketched out the flow of data, relevant components, files and variables to keep track of all necessary changes. I reduced lines of codes/complexity by writing the most elegant solution possible and replaced legacy lifecycle methods.
+I picked out parts from the youtube iframe api documentation that would help us in our endeavour, noted down legal/technical difficulties that building youtube player would face and rediscussed them with Isa. I made notes and sketched out the flow of data, relevant components, files and variables to keep track of all necessary changes. I reduced lines of codes/complexity by writing the most elegant solution possible and replaced legacy lifecycle methods.
 
 Once a stable version of the component was created I discussed existing issues on error handling, state management, integration hiccups with main music component and possible refinements for the music player with Isa. Isa also gave me access to her BrowserStack account for testing purposes. Thus we went through numerous cycles of testing and bug fixing in order to make it meet user experience expectations. I made a tasklist to tick off in the main pull request to keep track.
 
