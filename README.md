@@ -61,7 +61,7 @@ Relevant pull requests
 ### Redesigning the search result card system
 The archive’s uneven search tile system has been one of its greatest obstacles to accessibility and navigation, and thus was one of my sub goals to tackle. 
 
-For the same I did an in depth study on the current situation of our tiles and listed all its issues that would be needed to be resolved. I studied Sketch and the use of its various plugins and followed up to coordinate with our UI and UX engineer Jim and built a strategy together to tackle the tile designs and improve my workflow in Sketch. 
+For the same I did an in-depth study of the current situation of our tiles and listed all its issues that would be needed to be resolved. I studied Sketch and the use of its various plugins and followed up with our UI and UX engineer Jim and built a strategy together to tackle the tile designs and improve my workflow in Sketch. 
 
 We decided to first work towards equalising all cards heights, then followed by replacing our information messages with badges and solving colour contrast issues in our colour palette. I presented the latest version of the prototypes in our biweekly user experience forum and kept adding on small tasks, reiterated on and redesigned the tiles multiple times based on continuous review and feedback for until the final prototypes were confirmed and approved.
 
@@ -118,3 +118,22 @@ Master issue
 Sub issues:
 
 Pull requests:
+
+
+Along with the above I helped out with occasional code reviews and user experience testing of other pull requests. I synced with the rest of the IAUX team in our standup meetings, biweekly user experience meetings and occasionally in sprints.
+
+
+### Benefits to Internet Archive
+As found out through Google Analytics,
+- The music player saw 23.3k+ views, within 11 days (August 11- August 22) of its ship to production, and the youtube player was the most interacted with channel
+- Out of the Internet Archive’s past year’s 98 million visits, approximately 60.1 million were from mobile, thus the topnav’s ship to production would be a huge win for the Archive’s navigation and accessibility
+
+Additionally,
+- Switching our testing libraries is bound to result in easier testing for developers, better test coverage and thus less bugs for our users
+- Users of all devices are bound to benefit from by our redesign of the tile system
+
+
+### What I took away from the experience
+My Google Summer of Code experience has undoubtedly been an amazing experience and has not only helped me grow as a developer, but also as an individual. Not only did I learn new technologies and gain further mastery over previously known ones, but also I’ve become a better communicator and a more confident person.
+
+
