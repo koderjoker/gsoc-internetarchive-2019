@@ -40,3 +40,8 @@ Come my later years in high school when I fell in love with coding and college w
 Thus I chose to begin my experience with volunteering at an open source organisation by contributing to Openlibrary, the world's largest non-profit, open source, digital public library, by merging a pull request for a linting issue as part of Hacktoberfest in October. I became a regular contributor January onwards, and started attending Openibrary's community calls. I helped out by re designing and implementing our book list pages, book edition component, search pages and raising and resolving issues for navigation and accessibility. 
 
 Soon I branched by helping out in helping in component development and documentation at IAUX, and applied for Google Summer of Code in the same.
+
+
+## Google Summer of Code
+
+### Flattening the directory and cleaning up the repo
