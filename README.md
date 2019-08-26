@@ -112,6 +112,9 @@ After a couple of issues faced due to pre existing issues with the navbar I had 
 - Removing Bootstrap as a dependency for new components in IAUX due to it’s unwanted effects on self written styles and pre-existing accessibility issues
 
 I soon had the navbar done and the pull requests are being reviewed and merged one by one!
+
 Master issue
+
 Sub issues:
+
 Pull requests:
