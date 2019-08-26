@@ -38,7 +38,7 @@ I have always been in love with books, ever since my childhood. However, it was 
 
 Come my later years in high school when I fell in love with coding and college where I fell in love with development and open source culture. I soon started to search for an open source project that interested me, and where I could volunteer.
 
-Thus I chose to begin my experience with volunteering at an open source organisation by contributing to Openlibrary, the world's largest non-profit, open source, digital public library, by merging a pull request for a linting issue as part of Hacktoberfest in October. I became a regular contributor January onwards, and started attending Openlibrary's community calls. I helped out by redesigning and implementing our book list pages, book edition component, search pages and raising and resolving issues for navigation and accessibility. 
+Thus I chose to begin my experience with volunteering at an open source organisation by contributing to Open Library, the world's largest non-profit, open source, digital public library, by merging a pull request for a linting issue as part of Hacktoberfest in October. I became a regular contributor January onwards, and started attending Open Library's community calls. I helped out by redesigning and implementing our book list pages, book edition component, search pages and raising and resolving issues for navigation and accessibility. 
 
 Soon I branched out by helping in component development and documentation at IAUX, and applied for Google Summer of Code in the same.
 
@@ -61,11 +61,11 @@ Relevant pull requests
 ### Redesigning the search result card system
 The archive’s uneven search tile system has been one of its greatest obstacles to accessibility and navigation, and thus was one of my sub goals to tackle. 
 
-For the same I did an in-depth study of the current situation of our tiles and listed all its issues that would be needed to be resolved. I studied Sketch and the use of its various plugins and followed up with our UI and UX engineer Jim and built a strategy together to tackle the tile designs and improve my workflow in Sketch. 
+For the same I did an in-depth study of the current situation of our tiles and listed all its issues that would be needed to be resolved. I studied Sketch and the use of its various plugins and coordinated with our UI and UX engineer Jim to build a strategy to tackle the tile designs and improve my workflow in Sketch. 
 
-We decided to first work towards equalising all cards heights, then followed by replacing our information messages with badges and solving colour contrast issues in our colour palette. I presented the latest version of the prototypes in our biweekly user experience forum and kept adding on small tasks, reiterated on and redesigned the tiles multiple times based on continuous review and feedback for until the final prototypes were confirmed and approved.
+I decided to first work towards equalising all cards heights, followed by replacing our information messages with badges and solving colour contrast issues in our colour palette. I presented the latest version of the prototypes in our biweekly user experience forum and kept adding on small tasks, reiterated on and redesigned the tiles multiple times based on continuous review and feedback until the final prototypes were confirmed and approved.
 
-Final prototypes for height standarisation and redesigning the information overlay can be found <a href="https://github.com/internetarchive/iaux/issues/195#issue-456375923">here</a> and <a href="https://github.com/internetarchive/iaux/issues/196#issuecomment-514803299">here</a>!
+Final prototypes for height standardisation and redesigning the information overlay can be found <a href="https://github.com/internetarchive/iaux/issues/195#issue-456375923">here</a> and <a href="https://github.com/internetarchive/iaux/issues/196#issuecomment-514803299">here</a>!
 
 Master issue
 
@@ -137,3 +137,7 @@ Additionally,
 My Google Summer of Code experience has undoubtedly been an amazing experience and has not only helped me grow as a developer, but also as an individual. Not only did I learn new technologies and gain further mastery over previously known ones, but also I’ve become a better communicator and a more confident person.
 
 
+### Future work and involvement in the community
+In the immediate future I plan to iterate on my work on the mobile topnav and make revisions to it based on feedback to help it reach production, and later on extend its utility to desktop as well. I'm also interested in helping out with the book sponsorship program.
+
+I would also like to continue helping out newcomers and support any upcoming open source initiatives, as Hacktoberfest was my entry to the Internet Archive.
